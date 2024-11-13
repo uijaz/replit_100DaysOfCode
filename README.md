@@ -11,3 +11,4 @@ Day 7 - Nesting Dolls Code\
 Day 8 - Affirmation Generator\
 Day 9 - Casting Spells on Your Code\
 Day 10 - Show Me the $$\
+Day 11 - "525,600 minutes"\
