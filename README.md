@@ -9,3 +9,4 @@ Day 5 - If this...else that?!\
 Day 6 - What the elif is this?\
 Day 7 - Nesting Dolls Code\
 Day 8 - Affirmation Generator\
+Day 9 - Casting Spells on Your Code\
