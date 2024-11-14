@@ -13,3 +13,4 @@ Day 9 - Casting Spells on Your Code\
 Day 10 - Show Me the $$\
 Day 11 - "525,600 minutes"\
 Day 12 - Find All the Bugs!\
+Day 13 - Gradebook Builder\
