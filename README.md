@@ -18,3 +18,4 @@ Day 14 - Rock, Paper, Scissors\
 Day 15 - All About the Loop\
 Day 16 - Make it Stop!\
 Day 17 - Let's Cheat Continue\
+Day 18 - Guess the Number\
