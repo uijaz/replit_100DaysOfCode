@@ -1,12 +1,12 @@
 # Day 17 - Let's Cheat Continue
 from getpass import getpass as input
 
+print("== Welcome to Rock🪨, Paper📄, Scissors✂️! ==")
+
 p1 = 0
 p2 = 0
 
 while True:
-  print("== Welcome to Rock🪨, Paper📄, Scissors✂️! ==")
-  print()
   print("Players, please select your move (r, p or s)")
   
   # player can exit game
