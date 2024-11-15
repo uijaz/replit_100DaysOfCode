@@ -1,6 +1,6 @@
 # Day 15 - All About the Loop
 print("== Cow Sound Generator ==")
-# exit = ""
+exit = "" # Initialize the variable
 while exit != "yes":
   animal = input("What animal do you want? ")
   if animal == "cow":
