@@ -21,3 +21,4 @@ Day 17 - Let's Cheat Continue\
 Day 18 - Guess the Number\
 Day 19 - Let's Be a Bit Lazy!\
 Day 20 - What Can Range really do?\
+Day 21 - Throwback to Math Facts\
