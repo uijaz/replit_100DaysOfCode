@@ -1,4 +1,4 @@
-# Day 20 - What Can Range really do?
+# Day 20 - Range
 print("== List Generator ==")
 print()
 start = int(input("Start at: "))

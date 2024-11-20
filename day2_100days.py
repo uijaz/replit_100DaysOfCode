@@ -1,4 +1,4 @@
-# Day 2 - Input and Variables
+# Day 2 - Input & Variables
 print("What is your name?")
 myName = input("Your Name: ")
 print()

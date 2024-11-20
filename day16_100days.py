@@ -1,4 +1,4 @@
-# Day 16 - Make it Stop!
+# Day 16 - While True loop
 print("== Guess this song! ==")
 print()
 print("Fill in the blank ____!")

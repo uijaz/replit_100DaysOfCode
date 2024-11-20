@@ -1,4 +1,4 @@
-# Day 5 - If this...else that?!
+# Day 5 - If statements + Else
 print("Which character are you from 'Avengers?'")
 print("""Marvel Movie Character Creator
 --

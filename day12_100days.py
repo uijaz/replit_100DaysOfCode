@@ -1,4 +1,4 @@
-# Day 12 - Find All the Bugs!\
+# Day 12 - Debug my code!
 print("100 Days of Code QUIZ")
 print()
 print("How many can you answer correctly?")

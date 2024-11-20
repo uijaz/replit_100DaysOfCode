@@ -1,4 +1,4 @@
-# Day 17 - Let's Cheat Continue
+# Day 17 - Continue Statement
 from getpass import getpass as input
 
 print("== Welcome to Rock🪨, Paper📄, Scissors✂️! ==")

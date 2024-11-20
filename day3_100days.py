@@ -1,4 +1,4 @@
-# Day 3 - Concat...what?
+# Day 3 - Concatenation
 print("=== Ultimate Wacky Recipe Maker ===")
 print("""Build an amazing dish for today's evening meal!""")
 print()

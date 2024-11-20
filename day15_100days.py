@@ -1,4 +1,4 @@
-# Day 15 - All About the Loop
+# Day 15 - Loops
 print("== Cow Sound Generator ==")
 exit = "" # Initialize the variable
 while exit != "yes":

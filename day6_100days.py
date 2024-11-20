@@ -1,4 +1,4 @@
-# Day 6 - What the elif is this?
+# Day 6 - Elif
 print("SECURE LOGIN")
 username = input("Username > ")
 password = input("Password> ")

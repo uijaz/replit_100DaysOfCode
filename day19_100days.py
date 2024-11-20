@@ -1,4 +1,4 @@
-# Day 19 - Let's Be a Bit Lazy!
+# Day 19 - For Loop
 print("== Loan Calculator ==")
 print()
 

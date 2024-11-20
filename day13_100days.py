@@ -1,4 +1,4 @@
-# Day 13 - Gradebook Builder
+# Day 13 - Project: What grade did I get?
 print("== Grade Generator ==")
 
 nameOfTest = input("What is the name of the test? ")

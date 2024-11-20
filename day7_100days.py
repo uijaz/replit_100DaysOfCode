@@ -1,4 +1,4 @@
-# Day 7 - Nesting Dolls Code
+# Day 7 - Nesting
 player = input("Which football star do you like? ")
 if player == "ronaldo":
   print("Awesome!")

@@ -1,4 +1,4 @@
-# Day 9 - Casting Spells on Your Code
+# Day 9 - Casting
 print("== What generation are you a part of? ==")
 year = int(input("What was your year of birth? "))
 if year >= 1925 and year <= 1946:

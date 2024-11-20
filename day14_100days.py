@@ -1,4 +1,4 @@
-# Day 14 - Rock, Paper, Scissors
+# Day 14 - 2 player rock, paper, scissor!
 from getpass import getpass as input
 
 print("== Welcome to Rock🪨, Paper📄, Scissors✂️! ==")

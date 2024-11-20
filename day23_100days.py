@@ -1,4 +1,4 @@
-# Day 23 - Subroutines: The Recipe for Coding
+# Day 23 - Subroutines
 def login():
   print("Replit Login System")
   print()

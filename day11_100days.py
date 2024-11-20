@@ -1,4 +1,4 @@
-# Day 11 - "525,600 minutes"
+# Day 11 - Project Day! How many seconds in a year
 print("== How many seconds are in a year? ==")
 yearType = input("Is it a leap year? (y/n) ")
 

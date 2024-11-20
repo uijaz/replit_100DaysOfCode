@@ -1,4 +1,4 @@
-# Day 21 - Throwback to Math Facts
+# Day 21 - Project Day! Build a Math Facts Game
 print("== Math Game! ==")
 
 while True:

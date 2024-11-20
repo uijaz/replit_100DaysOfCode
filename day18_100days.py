@@ -1,4 +1,4 @@
-# Day 18 - Guess the Number
+# Day 18 - Project Day! Guess the Number Guessing Game
 import random
 
 print("=== Guess the Number ===")

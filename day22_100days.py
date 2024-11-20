@@ -1,4 +1,4 @@
-# Day 22 - Use other people's code
+# Day 22 - Libraries
 import random
 
 print("=== Totally Random One-Million-to-One ===")

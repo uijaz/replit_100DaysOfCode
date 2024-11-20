@@ -1,4 +1,4 @@
-# Day 4 - 'Print' in Color! 
+# Day 4 - Project Day! Write your own story
 print("Welcome to your adventure simulator. I am going to ask you a bunch of questions and then create an epic story with you as the star!")
 print()
 print("\033[31m")

@@ -1,4 +1,4 @@
-# Day 8 - Affirmation Generator
+# Day 8 - Project Day! Affirmations
 name = input("What is your name? ")
 day = input("What day is it today? ")
 fav1 = input("Name one of your favorite things? ")

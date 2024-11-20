@@ -1,27 +1,28 @@
 # replit_100DaysOfCode
 Replit 100 Days of Code - The Complete Python Course\
 \
-Day 1 - Hello World!\
-Day 2 - Input and Variables\
-Day 3 - Concat...what?\
-Day 4 - 'Print' in Color!\
-Day 5 - If this...else that?!\
-Day 6 - What the elif is this?\
-Day 7 - Nesting Dolls Code\
-Day 8 - Affirmation Generator\
-Day 9 - Casting Spells on Your Code\
-Day 10 - Show Me the $$\
-Day 11 - "525,600 minutes"\
-Day 12 - Find All the Bugs!\
-Day 13 - Gradebook Builder\
-Day 14 - Rock, Paper, Scissors\
-Day 15 - All About the Loop\
-Day 16 - Make it Stop!\
-Day 17 - Let's Cheat Continue\
-Day 18 - Guess the Number\
-Day 19 - Let's Be a Bit Lazy!\
-Day 20 - What Can Range really do?\
-Day 21 - Throwback to Math Facts\
-Day 22 - Use other people's code\
-Day 23 - Subroutines: The Recipe for Coding\
-Day 24 - Roll in the Parameters\
+Day 1 - Print\
+Day 2 - Input & Variables
+Day 3 - Concatenation\
+Day 4 - Project Day! Write your own story\
+Day 5 - If statements + Else\
+Day 6 - Elif\
+Day 7 - Nesting\
+Day 8 - Project Day! Affirmations\
+Day 9 - Casting\
+Day 10 - A bit of Math\
+Day 11 - Project Day! How many seconds in a year\
+Day 12 - Debug my code!\
+Day 13 - Project: What grade did I get?\
+Day 14 - 2 player rock, paper, scissor!\
+Day 15 - Loops\
+Day 16 - While True loop\
+Day 17 - Continue Statement\
+Day 18 - Project Day! Guess the Number Guessing Game\
+Day 19 - For Loop\
+Day 20 - Range\
+Day 21 - Project Day! Build a Math Facts Game\
+Day 22 - Libraries\
+Day 23 - Subroutines\
+Day 24 - Parameters\
+Day 25 - Return Command\
