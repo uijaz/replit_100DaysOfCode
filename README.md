@@ -26,3 +26,6 @@ Day 22 - Libraries\
 Day 23 - Subroutines\
 Day 24 - Parameters\
 Day 25 - Return Command\
+Day 26 - More Libraries\
+Day 27 - Project Day: Epic Character Battle, Part 1\
+Day 28 - Project Day: Epic Character Battle, Part 2\

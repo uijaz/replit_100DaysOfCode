@@ -1,0 +1,5 @@
+#Ignore environment
+.venv
+
+#Ignore media
+*.wav
