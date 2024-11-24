@@ -29,3 +29,6 @@ Day 25 - Return Command\
 Day 26 - More Libraries\
 Day 27 - Project Day: Epic Character Battle, Part 1\
 Day 28 - Project Day: Epic Character Battle, Part 2\
+Day 29 - The Secrets of `print`\
+Day 30 - f-strings\
+Day 31 - Project Day: Create User Interfaces with Color\
