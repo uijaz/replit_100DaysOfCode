@@ -32,3 +32,7 @@ Day 28 - Project Day: Epic Character Battle, Part 2\
 Day 29 - The Secrets of `print`\
 Day 30 - f-strings\
 Day 31 - Project Day: Create User Interfaces with Color\
+Day 32 - Lists\
+Day 33 - Dynamic Lists\
+Day 34 - Pretty Printing\
+Day 35 - Project Day: The ULTIMATE List Maker\
