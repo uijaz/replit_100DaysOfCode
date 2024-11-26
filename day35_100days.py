@@ -1,21 +1,13 @@
-# Give the user the option to completely erase the to do list. (You should be able to do this in one line of code!)
+# Day 35 - Project Day: The ULTIMATE List Maker
 import os, time
 os.system("clear")
 
 list = []
 index = 0
 
-red = "\033[31m"
-green = "\032[33m"
-yellow = "\033[33m"
-reset_colour = "\033[0m"
-
 item = ""
 new_item = ""
 ans = ""
-
-print(f"{yellow}== To Do List Manager =={reset_colour}")
-print()
 
 # Generates coloured text
 def cT(text, colour):
@@ -32,12 +24,6 @@ def cT(text, colour):
     }
     colour_code = colours_dict.get(colour, colours_dict["reset"])    
     return f"{colour_code}{text}{colours_dict['reset']}"
-
-def itemInList(item, list):
-  if item in list:
-    return True
-  else:
-    return False
   
 def viewList(list):
   if len(list) == 0:
@@ -131,4 +117,6 @@ def todoMenu():
         print(f"{cT(item + 'Invalid input!', 'red')}")   #red
         print()
 
+print(f"{cT('== To Do List Manager ==', 'yellow')}")
+print()
 todoMenu()
