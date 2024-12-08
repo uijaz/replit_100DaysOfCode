@@ -36,3 +36,11 @@ Day 32 - Lists\
 Day 33 - Dynamic Lists\
 Day 34 - Pretty Printing\
 Day 35 - Project Day: The ULTIMATE List Maker\
+Day 36 - String Manipulation\
+Day 37 - String Slicing\
+Day 38 - Strings and Loops\
+Day 39 - Project Day: Hangman!\
+
+Day 40 - Dictionaries\
+Day 41 - Dictionaries with Loops\
+Day 42 - Project Day: MokeBeast\
