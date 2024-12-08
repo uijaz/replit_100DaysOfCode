@@ -11,7 +11,6 @@ ans = ""
 
 # Generates coloured text
 def changeColour(text, colour):
-    # DichangeColourionary of ANSI escape codes for different colors
     colours_dichangeColour = {
         "red": "\033[31m",
         "green": "\033[32m",

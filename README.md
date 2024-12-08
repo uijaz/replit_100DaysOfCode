@@ -40,7 +40,7 @@ Day 36 - String Manipulation\
 Day 37 - String Slicing\
 Day 38 - Strings and Loops\
 Day 39 - Project Day: Hangman!\
-
 Day 40 - Dictionaries\
 Day 41 - Dictionaries with Loops\
 Day 42 - Project Day: MokeBeast\
+
