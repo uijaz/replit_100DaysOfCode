@@ -1,6 +1,8 @@
 # Day 26 - More Libraries
 import os
 import time
+
+# pip install pygame
 import pygame
 
 pygame.init()

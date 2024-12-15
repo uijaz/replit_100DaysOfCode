@@ -43,4 +43,13 @@ Day 39 - Project Day: Hangman!\
 Day 40 - Dictionaries\
 Day 41 - Dictionaries with Loops\
 Day 42 - Project Day: MokeBeast\
+Day 43 - 2D Lists\
+Day 44 - 2D Dynamic Lists\
+Day 45 - Project Day: To Do List Management System\
 
+Day 46 - 2D dictionaries\
+Day 47 - Project Day: Top Trumps\
+
+Day 48 - Saving Files\
+Day 49 - Reading a File\
+Day 50 - Project Day: Idea Storage\
