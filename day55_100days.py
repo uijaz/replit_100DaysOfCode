@@ -1,18 +1,23 @@
 #myGPTexperiment
 # using Copilot with GPT-4o
-# Day 51: Saving and Loading Data
+# Day 55: Os Library
 
-# Improve Day 45 - Project Day: To Do List Management System
+# Improve Day 51: Saving and Loading Data
 
 # Specs:
-# - add auto-save by saving to a file 'todo.txt.
-# - add auto-load and loading from 'todo.txt'. 
+# Create a backup folder. Use the 'os.mkdir()' function.
+# Create a random filename to create a backup file. Save a copy of the data to this file.
+# This backup saving should all happen before the auto save.
+# Use a Boolean variable 'fileExists' set to False to store whether the random filename file has already been created.
+# Use 'if fileExists' later on to check the status of the file before creating or writing.
+# Make sure all data is backed up in this new file along with the todo.txt.
 
-import os, time, ast
+import os, time, ast, random, string
 
 os.system("clear")
 
 todo_list = []
+fileExists = False
 
 # Generates coloured text
 def changeColour(text, colour):
@@ -29,8 +34,31 @@ def changeColour(text, colour):
     colour_code = colours_dic.get(colour, colours_dic["reset"])
     return f"{colour_code}{text}{colours_dic['reset']}"
 
+# Create a backup folder if it doesn't exist
+def createBackupFolder():
+    if not os.path.exists("backup"):
+        os.mkdir("backup")
+
+# Generate a random filename for the backup
+def generateRandomFilename():
+    return ''.join(random.choices(string.ascii_letters + string.digits, k=8)) + ".txt"
+
+# Save the to-do list to a backup file
+def saveBackup():
+    global fileExists
+    createBackupFolder()
+    backup_filename = generateRandomFilename()
+    backup_filepath = os.path.join("backup", backup_filename)
+    while os.path.exists(backup_filepath):
+        backup_filename = generateRandomFilename()
+        backup_filepath = os.path.join("backup", backup_filename)
+    with open(backup_filepath, "w") as f:
+        f.write(str(todo_list))
+    fileExists = True
+
 # Save the to-do list to a file
 def saveList():
+    saveBackup()
     with open("todo.txt", "w") as f:
         f.write(str(todo_list))
 

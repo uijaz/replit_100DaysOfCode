@@ -53,9 +53,19 @@ Day 49 - Reading a File\
 Day 50 - Project Day: Idea Storage\
 Day 51: Saving and Loading Data\
 Day 52: Avoiding Crashes\
-
 Day 53: Project Day: Video Game Inventory\
-
 Day 54: CSV Files\
 Day 55: Os Library\
 Day 56: Project Day: Music Streaming\
+
+Day 57: 100 Days of Code: Recursion\
+Day 58: 100 Days of Code: Debugging\
+Day 59: 100 Days of Code: Project Day: Palindrome\
+
+Day 60: 100 Days of Code: The Magic of Time\
+Day 61: 100 Days of Code: Replit DB\
+Day 62: 100 Days of Code: Project Day: Private Diary\
+
+Day 63: 100 Days of Code: We Can Split That\
+Day 64: 100 Days of Code: OOP\
+Day 65: 100 Days of Code: Project Day: Character Creation
