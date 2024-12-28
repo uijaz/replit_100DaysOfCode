@@ -51,9 +51,9 @@ Day 47 - Project Day: Top Trumps\
 Day 48 - Saving Files\
 Day 49 - Reading a File\
 Day 50 - Project Day: Idea Storage\
-
 Day 51: Saving and Loading Data\
 Day 52: Avoiding Crashes\
+
 Day 53: Project Day: Video Game Inventory\
 
 Day 54: CSV Files\

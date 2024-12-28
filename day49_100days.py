@@ -2,9 +2,7 @@
 # using Copilot with GPT-4o
 # Day 49 - Reading a File
 
-# GPT instructions:
-
-# The program should:
+# Specs:
 # - Read in the data from the highscore.txt file.
 # - Identify which of those users had the highest score. Automatically!
 # - Output the name and score of the winner.

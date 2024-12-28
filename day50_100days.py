@@ -2,9 +2,7 @@
 # using Copilot with GPT-4o
 # Day 50 - Project Day: Idea Storage
 
-# GPT instructions:
-
-# The program for idea storage system should:
+# Specs:
 # 1. Prompt the user to add an idea, or load a random one.
 # 2. Choosing 'Add an idea' results in:
 # 2a. A prompt for the user to input their idea.

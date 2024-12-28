@@ -2,9 +2,7 @@
 # using Copilot with GPT-4o
 # Day 48 - Saving Files
 
-# GPT instructions:
-
-# This program should:
+# Specs:
 # - Ask the user to input their three letter initials and score (out of about 100,000).
 # - Save both those values into a file called 'highscore.txt'.
 # - This should use append mode. If the file doesn't exist, it should be created. If it does, the score should be added to the end.
