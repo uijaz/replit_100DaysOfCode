@@ -1,4 +1,5 @@
 #myGPTexperiment
+# using Bing Copilot
 # Day 47 - Project Day: Top Trumps
 
 import os

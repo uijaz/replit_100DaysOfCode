@@ -1,5 +1,6 @@
 #myGPTexperiment
-# Day 42 - Project Day: MokéBeast
+# using Bing Copilot
+# Day 46 - 2D dictionaries
 
 import os
 
@@ -45,7 +46,7 @@ mokedex = {}
 print("👾 MokéBeast - The Non-Copyright Generic Beast Battle Game 👾")
 while True:
     name = input("\nInput your beast's name > ")
-    type = input("Input your beast's type > ")
+    type = input("Input your beast's type (Fire, Water, Air, Earth) > ")
     move = input("Input your beast's special move > ")
     hp = input("Input your beast's starting HP > ")
     mp = input("Input your beast's starting MP > ")
