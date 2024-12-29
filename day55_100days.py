@@ -5,6 +5,7 @@
 # Improve Day 51: Saving and Loading Data
 
 # Specs:
+# Improve existing code by:
 # Create a backup folder. Use the 'os.mkdir()' function.
 # Create a random filename to create a backup file. Save a copy of the data to this file.
 # This backup saving should all happen before the auto save.
