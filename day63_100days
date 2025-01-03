@@ -1,0 +1,31 @@
+# Specs:
+# - Create a library from subroutines used in the programs from the files day1_100days.py to day62_100days.py.
+# - Go through all the programs and choose the regularly used subroutines to create a library and reference within all these programs.
+# - Create a new file that contains all these subroutines.
+# - Import this library into all the programs and create relevant imports.
+
+
+# Implementation:
+- Created utils_100days.py.
+- Moved the most commonly used functions to utils_100days.py.
+- Imported utils_100days.py into all the relevant programs.
+- Updated the functions to use the imported functions from utils_100days.py.
+
+# day26_100days
+def printText(text):
+
+# day24_100days
+# day25_100days
+# day27_100days
+# day28_100days
+def diceRoll(numberOfSides):
+
+# day31_100days
+
+# day35_100days
+# day42_100days
+# day45_100days
+# day46_100days
+# day51_100days
+# day55_100days
+def changeColour(text, colour):

@@ -1,24 +1,10 @@
-# Day 45 - Project Day: To Do List Management System
+# day45_100days.py
 import os, time
+from utils_100days import changeColour
 
 os.system("clear")
 
 todo_list = []
-
-# Generates coloured text
-def changeColour(text, colour):
-    colours_dic = {
-        "red": "\033[31m",
-        "green": "\033[32m",
-        "yellow": "\033[33m",
-        "blue": "\033[34m",
-        "magenta": "\033[35m",
-        "cyan": "\033[36m",
-        "white": "\033[37m",
-        "reset": "\033[0m"
-    }
-    colour_code = colours_dic.get(colour, colours_dic["reset"])
-    return f"{colour_code}{text}{colours_dic['reset']}"
 
 # Displays the To Do list
 def viewList():

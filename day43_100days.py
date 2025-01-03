@@ -1,9 +1,10 @@
 # Day 43 - 2D Lists
 import random, os
-os.system('clear')
 
 # pip install tabulate
 from tabulate import tabulate
+
+os.system('clear')
 
 bingo2DList = []
 randList = []

@@ -14,37 +14,20 @@
 # Make sure all data is backed up in this new file along with the todo.txt.
 
 import os, time, ast, random, string
+from utils_100days import changeColour
 
 os.system("clear")
 
 todo_list = []
 fileExists = False
 
-# Generates coloured text
-def changeColour(text, colour):
-    colours_dic = {
-        "red": "\033[31m",
-        "green": "\033[32m",
-        "yellow": "\033[33m",
-        "blue": "\033[34m",
-        "magenta": "\033[35m",
-        "cyan": "\033[36m",
-        "white": "\033[37m",
-        "reset": "\033[0m"
-    }
-    colour_code = colours_dic.get(colour, colours_dic["reset"])
-    return f"{colour_code}{text}{colours_dic['reset']}"
-
-# Create a backup folder if it doesn't exist
 def createBackupFolder():
     if not os.path.exists("backup"):
         os.mkdir("backup")
 
-# Generate a random filename for the backup
 def generateRandomFilename():
     return ''.join(random.choices(string.ascii_letters + string.digits, k=8)) + ".txt"
 
-# Save the to-do list to a backup file
 def saveBackup():
     global fileExists
     createBackupFolder()
@@ -57,20 +40,17 @@ def saveBackup():
         f.write(str(todo_list))
     fileExists = True
 
-# Save the to-do list to a file
 def saveList():
     saveBackup()
     with open("todo.txt", "w") as f:
         f.write(str(todo_list))
 
-# Load the to-do list from a file
 def loadList():
     global todo_list
     if os.path.exists("todo.txt"):
         with open("todo.txt", "r") as f:
             todo_list = ast.literal_eval(f.read())
 
-# Displays the To Do list
 def viewList():
     if len(todo_list) == 0:
         print(changeColour("Your To Do list is currently empty.", "yellow"))
@@ -79,7 +59,6 @@ def viewList():
         for idx, task in enumerate(todo_list):
             print(changeColour(f"{idx + 1}. {task['task']} - Due: {task['due']} - Priority: {task['priority']}", "cyan"))
 
-# Displays tasks by priority
 def viewByPriority(priority):
     filtered_tasks = [task for task in todo_list if task['priority'] == priority]
     if not filtered_tasks:
@@ -89,7 +68,6 @@ def viewByPriority(priority):
         for idx, task in enumerate(filtered_tasks):
             print(changeColour(f"{idx + 1}. {task['task']} - Due: {task['due']}", "cyan"))
 
-# Adds a task to the To Do list based on priority
 def addItem():
     task = input(changeColour("What is the task? ", "yellow"))
     due = input(changeColour("When is it due? ", "yellow"))
@@ -112,7 +90,6 @@ def addItem():
     print(changeColour("Task added successfully!", "green"))
     saveList()
 
-# Edits a task
 def editItem():
     if not todo_list:
         print(changeColour("Your To Do list is empty.", "yellow"))
@@ -153,7 +130,6 @@ def editItem():
     print(changeColour("Task edited successfully!", "green"))
     saveList()
 
-# Removes a task
 def removeItem():
     if not todo_list:
         print(changeColour("Your To Do list is empty.", "yellow"))
@@ -176,7 +152,6 @@ def removeItem():
     print(changeColour(f"Task '{removed_task['task']}' removed successfully!", "green"))
     saveList()
 
-# Deletes the entire To Do list
 def deleteList():
     if not todo_list:
         print(changeColour("Your To Do list is empty.", "yellow"))
@@ -190,7 +165,6 @@ def deleteList():
         print(changeColour("Your To Do list was not deleted.", "green"))
     saveList()
 
-# Moves a task by changing its priority
 def moveItem():
     if not todo_list:
         print(changeColour("Your To Do list is empty.", "yellow"))
@@ -228,7 +202,6 @@ def moveItem():
     print(changeColour("Task moved successfully!", "green"))
     saveList()
 
-# Main menu
 def todoMenu():
     loadList()
     while True:

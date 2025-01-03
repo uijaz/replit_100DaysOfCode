@@ -1,21 +1,17 @@
 # Day 26 - More Libraries
 import os
 import time
+from utils_100days import printText
 
 # pip install pygame
 import pygame
+
 
 pygame.init()
 pygame.mixer.init()
 sound = pygame.mixer.Sound('audio.wav')
 sound.play()
 pygame.mixer.pause()
-
-def printText(text):
-  for char in text:
-    print(char, end='', flush=True)
-    time.sleep(0.01)
-  print()
 
 def menu():
   # clear the screen 

@@ -3,21 +3,10 @@
 # Day 46 - 2D dictionaries
 
 import os
+from utils_100days import changeColour
 
 def clear_screen():
     os.system('clear')
-
-def change_colour(text, colour):
-    colours_dict = {
-        "red": "\033[91m",
-        "green": "\033[92m",
-        "yellow": "\033[93m",
-        "blue": "\033[94m",
-        "white": "\033[97m",
-        "reset": "\033[0m"
-    }
-    colour_code = colours_dict.get(colour, colours_dict["reset"])
-    return f"{colour_code}{text}{colours_dict['reset']}"
 
 def choose_colour(type):
     type_lower = type.lower()
@@ -37,7 +26,7 @@ def pretty_print(mokedex):
     for name, details in mokedex.items():
         colour = choose_colour(details['type'])
         beast_info = f"name: {name} | element: {details['type']} | special move: {details['move']} | HP: {details['hp']} | MP: {details['mp']}"
-        print(change_colour(beast_info, colour))
+        print(changeColour(beast_info, colour))
 
 clear_screen()
 
@@ -54,7 +43,7 @@ while True:
     mokedex[name] = {"type": type, "move": move, "hp": hp, "mp": mp}
     
     colour = choose_colour(type)
-    print(change_colour(f"Your beast is called {name.capitalize()}. It is a {type.capitalize()} beast with a special move of {move.capitalize()}.", colour))
+    print(changeColour(f"Your beast is called {name.capitalize()}. It is a {type.capitalize()} beast with a special move of {move.capitalize()}.", colour))
     
     again = input("\nAgain? y/n > ").lower()
     if again != 'y':

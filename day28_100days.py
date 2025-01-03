@@ -1,11 +1,9 @@
+from utils_100days import diceRoll
+
 # Day 28 - Project Day: Epic Character Battle, Part 2
 # Automated game battle system!
 import os, time, random
 os.system("clear")
-
-# Roll of dice
-def diceRoll(numberOfSides):
-  return random.randint(1, numberOfSides)
 
 # Character Builder
 def character():

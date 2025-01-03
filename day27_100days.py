@@ -1,3 +1,5 @@
+from utils_100days import diceRoll
+
 # Day 27 - Project Day: Epic Character Battle, Part 1
 # Character Builder
 import os, time, random
@@ -5,9 +7,6 @@ import os, time, random
 os.system("clear")
 print("== Character Builder ==")
 time.sleep(1)
-
-def diceRoll(numberOfSides):
-    return random.randint(1, numberOfSides)
 
 # Write a subroutine that generates a character: first name and character type (human, imp, wizard, elf, etc.).
 def character(name, type):

@@ -60,11 +60,10 @@ Day 56: Project Day: Music Streaming\
 Day 57: Recursion\
 Day 58: Debugging\
 Day 59: Project Day: Palindrome\
-
 Day 60: The Magic of Time\
 Day 61: Replit DB\
 Day 62: Project Day: Private Diary\
-
 Day 63: We Can Split That\
+
 Day 64: OOP\
 Day 65: Project Day: Character Creation

@@ -1,8 +1,6 @@
-# Day 25 - Return Command
-def diceRoll(numberOfSides):
-    import random
-    return random.randint(1, numberOfSides)
+from utils_100days import diceRoll
 
+# Day 25 - Return Command
 def hp():
     return diceRoll(6) * diceRoll(8)
 

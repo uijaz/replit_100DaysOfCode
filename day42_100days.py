@@ -1,21 +1,10 @@
-# Day 42 - Project Day: MokeBeast
+# day42_100days.py
 import os
+from utils_100days import changeColour
+
 os.system('clear')
 
 beast_dict = {}
-
-# Generates coloured text
-def changeColour(text, colour):
-    colours_dichangeColour = {
-        "red": "\033[31m",
-        "green": "\033[32m",
-        "yellow": "\033[33m",
-        "blue": "\033[34m",
-        "white": "\033[37m",
-        "reset": "\033[0m"
-    }
-    colour_code = colours_dichangeColour.get(colour, colours_dichangeColour["reset"])    
-    return f"{colour_code}{text}{colours_dichangeColour['reset']}"
 
 def chooseColour(type):
     if type.lower() == 'fire':

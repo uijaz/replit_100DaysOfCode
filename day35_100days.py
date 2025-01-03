@@ -1,5 +1,7 @@
-# Day 35 - ProjechangeColour Day: The ULTIMATE List Maker
+# day35_100days.py
 import os, time
+from utils_100days import changeColour
+
 os.system("clear")
 
 list = []
@@ -9,21 +11,6 @@ item = ""
 new_item = ""
 ans = ""
 
-# Generates coloured text
-def changeColour(text, colour):
-    colours_dichangeColour = {
-        "red": "\033[31m",
-        "green": "\033[32m",
-        "yellow": "\033[33m",
-        "blue": "\033[34m",
-        "magenta": "\033[35m",
-        "cyan": "\033[36m",
-        "white": "\033[37m",
-        "reset": "\033[0m"
-    }
-    colour_code = colours_dichangeColour.get(colour, colours_dichangeColour["reset"])    
-    return f"{colour_code}{text}{colours_dichangeColour['reset']}"
-  
 def viewList(list):
   if len(list) == 0:
     print(f"{changeColour('Your To Do list is currently empty.', 'yellow')}")

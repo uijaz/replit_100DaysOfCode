@@ -1,6 +1,8 @@
 # Day 44 - 2D Dynamic Lists
 import random
 import os
+
+# pip install tabulate
 from tabulate import tabulate
 
 # Clear the console
