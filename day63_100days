@@ -1,3 +1,7 @@
+#myGPTexperiment
+# using Copilot with GPT-4o
+# Day 63: We Can Split That\
+
 # Specs:
 # - Create a library from subroutines used in the programs from the files day1_100days.py to day62_100days.py.
 # - Go through all the programs and choose the regularly used subroutines to create a library and reference within all these programs.

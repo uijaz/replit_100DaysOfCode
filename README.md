@@ -64,6 +64,18 @@ Day 60: The Magic of Time\
 Day 61: Replit DB\
 Day 62: Project Day: Private Diary\
 Day 63: We Can Split That\
-
 Day 64: OOP\
-Day 65: Project Day: Character Creation
+Day 65: Character Creation\
+
+Day 66: This is Getting GUI
+Day 67: tkinter
+Day 68: Hide & Remove
+Day 69: Project Day: Graphic Novel
+
+Day 70: Secrets
+Day 71: Pass the Salt
+Day 72: Project Day: Secret Diary 2.0
+Day 73: HTML Crash Course
+Day 74: Add Some Style
+Day 75: Project Day: Link Tree
+
