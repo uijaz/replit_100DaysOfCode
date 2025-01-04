@@ -1,5 +1,7 @@
 #Ignore environment
 .venv
+.vscode
+.DS_Store
 
 #Ignore media
 *.wav
