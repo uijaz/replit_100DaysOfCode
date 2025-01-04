@@ -5,3 +5,6 @@
 
 #Ignore media
 *.wav
+
+# Ignore .gitignore file
+.gitignore
