@@ -1,4 +1,4 @@
-# day31_100days.py
+# Day 31 - Project Day: Create User Interfaces with Color
 import os, time
 from utils_100days import changeColour
 

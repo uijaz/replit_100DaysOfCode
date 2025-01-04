@@ -1,8 +1,8 @@
-from utils_100days import diceRoll
-
 # Day 28 - Project Day: Epic Character Battle, Part 2
 # Automated game battle system!
 import os, time, random
+from utils_100days import diceRoll
+
 os.system("clear")
 
 # Character Builder

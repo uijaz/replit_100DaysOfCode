@@ -34,7 +34,7 @@ def calculate_total_earnings(filename):
 # Main function
 def main():
     print("🌟Shop ££ Tracker🌟")
-    filename = 'Day54Totals.csv'
+    filename = 'resources/Day54Totals.csv'
     total_earnings = round(calculate_total_earnings(filename), 2)
     print(f"Your shop took £{total_earnings} pounds today.")
 

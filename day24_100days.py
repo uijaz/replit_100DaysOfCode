@@ -1,6 +1,6 @@
+# Day 24 - Parameters
 from utils_100days import diceRoll
 
-# Day 24 - Parameters
 print("== Infinity Dice 🎲 ==")
 print()
 

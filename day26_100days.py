@@ -9,7 +9,7 @@ import pygame
 
 pygame.init()
 pygame.mixer.init()
-sound = pygame.mixer.Sound('audio.wav')
+sound = pygame.mixer.Sound('resources/audio.wav')
 sound.play()
 pygame.mixer.pause()
 

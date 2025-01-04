@@ -22,7 +22,7 @@
 print("🌟Current Leader🌟\n")
 print("Analyzing high scores......\n")
 
-with open("highscore.txt", "r") as file:
+with open("resources/highscore.txt", "r") as file:
   max_score = ["", 0]  # [name, score]
   for line in file:
     name, score = line.split()

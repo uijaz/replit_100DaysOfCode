@@ -13,9 +13,9 @@ import os
 import csv
 
 # Define the path to the CSV file
-csv_file_path = os.path.join(os.path.dirname(__file__), '100MostStreamedSongs.csv')
+csv_file_path = os.path.join(os.path.dirname(__file__), 'resources/100MostStreamedSongs.csv')
 # Define the path to the main folder
-main_folder_path = os.path.join(os.path.dirname(__file__), '100MostStreamedSongs')
+main_folder_path = os.path.join(os.path.dirname(__file__), 'resources/100MostStreamedSongs')
 
 # Create the main folder if it doesn't exist
 if not os.path.exists(main_folder_path):

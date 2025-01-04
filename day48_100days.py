@@ -28,7 +28,7 @@
 
 print("🌟HIGH SCORE TABLE🌟")
 
-with open("highscore.txt", "a") as f:
+with open("resources/highscore.txt", "a") as f:
     while True:
         user_input = input("Input your initials and score (e.g., DJM 89764) > ")
         try:

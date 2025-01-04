@@ -1,8 +1,7 @@
-from utils_100days import diceRoll
-
 # Day 27 - Project Day: Epic Character Battle, Part 1
 # Character Builder
 import os, time, random
+from utils_100days import diceRoll
 
 os.system("clear")
 print("== Character Builder ==")

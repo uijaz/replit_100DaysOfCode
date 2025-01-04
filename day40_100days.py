@@ -1,5 +1,6 @@
 # Day 40 - Dictionaries
 import os
+
 os.system('clear')
 
 print("🌟Contact Card🌟")

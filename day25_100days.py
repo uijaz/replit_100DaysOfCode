@@ -1,6 +1,6 @@
+# Day 25 - Return Command
 from utils_100days import diceRoll
 
-# Day 25 - Return Command
 def hp():
     return diceRoll(6) * diceRoll(8)
 

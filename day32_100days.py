@@ -1,4 +1,4 @@
-#Day 32 - Lists
+# Day 32 - Lists
 import random
 
 greetings = [

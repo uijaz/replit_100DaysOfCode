@@ -1,4 +1,4 @@
-# day42_100days.py
+# Day 42 - Project Day: MokeBeast
 import os
 from utils_100days import changeColour
 
