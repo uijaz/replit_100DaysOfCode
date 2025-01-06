@@ -69,10 +69,45 @@ Day 66: This is Getting GUI\
 Day 67: tkinter\
 Day 68: Hide & Remove\
 Day 69: Project Day: Graphic Novel\
-
 Day 70: Secrets\
 Day 71: Pass the Salt\
+
 Day 72: Project Day: Secret Diary 2.0\
+
 Day 73: HTML Crash Course\
 Day 74: Add Some Style\
 Day 75: Project Day: Link Tree
+
+Day 76: Flask
+Day 77: Slim Down
+Day 78: Project Day: Reflection Journal
+
+Day 79: Forms
+Day 80: Incoming!
+Day 81: Project Day: I'm Not a Robot
+
+Day 82: Don't Stop 'til You Get
+Day 83: Project Day: Custom Themes
+
+Day 84: Client Server Logins
+Day 85: HTTP & Sessions
+Day 86: Project Day: Blog
+
+Day 87: Authentication
+Day 88: Authenticate Finesse
+Day 89: Project Day: Community Chat App
+
+Day 90: Jason? JSON?
+Day 91: The Joke's on You!
+Day 92: Project Day: What's the Weather?
+
+Day 93: What's Your Top Ten?
+Day 94: API Mashup
+Day 95: Project Day: Daily Track Generator
+
+Day 96: Let's Get Scraping
+Day 97: Project Day: Summarize Anything!
+Day 98: Automate! Automate!
+Day 99: Project Day: Scrape the Hub
+
+Day 100: 100 Days of Code

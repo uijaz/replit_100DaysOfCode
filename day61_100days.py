@@ -43,7 +43,7 @@ def view_tweets(db):
 
 def main():
   os.system('clear')
-  with shelve.open('tweets') as db:
+  with shelve.open('resources/tweets') as db:
     while True:
       print()
       print("Menu:")

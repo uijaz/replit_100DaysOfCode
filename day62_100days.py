@@ -28,13 +28,13 @@ def clear_screen():
   os.system('cls' if os.name == 'nt' else 'clear')
 
 def set_password():
-  with shelve.open('diary') as db:
+  with shelve.open('resources/diary') as db:
     if 'password' not in db:
       password = input("Set your diary password: ")
       db['password'] = password
 
 def verify_password():
-  with shelve.open('diary') as db:
+  with shelve.open('resources/diary') as db:
     correct_password = db['password']
     password_entered = input("Enter your diary password: ")
     if password_entered != correct_password:
@@ -42,14 +42,14 @@ def verify_password():
       exit()
 
 def add_entry():
-  with shelve.open('diary') as db:
+  with shelve.open('resources/diary') as db:
     entry = input("Type your entry: ")
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     db[timestamp] = entry
     print("Entry added.")
 
 def view_entries():
-  with shelve.open('diary') as db:
+  with shelve.open('resources/diary') as db:
     keys = sorted(db.keys(), reverse=True)
     keys = [key for key in keys if key != 'password']
     index = 0
@@ -72,7 +72,7 @@ def view_entries():
 
 def view_entry_by_date():
   date_str = input("Enter the date (YYYY-MM-DD): ")
-  with shelve.open('diary') as db:
+  with shelve.open('resources/diary') as db:
     keys = sorted(db.keys())
     keys = [key for key in keys if key != 'password']
     entries_found = False
@@ -86,7 +86,7 @@ def view_entry_by_date():
     input("Press Enter to return to the menu.")
 
 def view_all_entries():
-  with shelve.open('diary') as db:
+  with shelve.open('resources/diary') as db:
     keys = sorted(db.keys())
     keys = [key for key in keys if key != 'password']
     clear_screen()
